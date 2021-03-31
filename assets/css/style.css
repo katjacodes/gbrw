@@ -1,0 +1,16 @@
+.logo {
+    width: 135px;
+    height: 135px;
+    padding-left: 20px;
+}
+
+/* credit: code for burger menu taken from https://www.geeksforgeeks.org/how-to-create-hamburger-menu-for-mobile-devices and edited slightly do fit project needs */
+.icon, h5 {
+            color: green;
+        }
+  
+.links a:hover, .icon:hover {
+            background-color: green;
+            color: white;
+            transition: 0.4s all linear;
+        }
