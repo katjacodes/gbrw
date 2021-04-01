@@ -1,3 +1,8 @@
+#wrapper {
+    background: url("/../assets/images/GBRWedited.jpeg");
+    background-size: cover;
+}
+
 .logo {
     width: 135px;
     height: 135px;
