@@ -1,3 +1,15 @@
+
+body,html{
+    height:100%;
+}
+
+/* Header */
+.logo {
+    width: 135px;
+    height: 135px;
+    padding-left: 20px;
+}
+
 #wrapper {
     background: url("/../assets/images/GBRWxs.jpeg");
     background-size: cover;
@@ -5,10 +17,14 @@
     background-attachment: fixed;
 }
 
-.logo {
-    width: 135px;
-    height: 135px;
-    padding-left: 20px;
+/* Homepage annoucement section */
+.jumbotron {
+    background: rgba(200, 54, 54, 0.5);
+    margin-top: 10vh;
+}
+
+.fa-spotify {
+    color: rgb(30, 215, 96);
 }
 
 /* credit: code for burger menu taken from https://www.geeksforgeeks.org/how-to-create-hamburger-menu-for-mobile-devices and edited slightly do fit project needs */
