@@ -4,10 +4,12 @@ body,html{
 }
 
 /* Header */
-.logo {
-    width: 135px;
-    height: 135px;
-    padding-left: 20px;
+header {
+    display: flex;
+}
+
+.float-right {
+    float: right;
 }
 
 #wrapper {
@@ -17,10 +19,35 @@ body,html{
     background-attachment: fixed;
 }
 
+
+/* credit: code to align and size logo and navbar taken from hhttps://stackoverflow.com/questions/53171559/navbar-smaller-than-navbar-brand and edited slightly do fit project needs */
+.navbar {
+    height: 50px; 
+    width: 100%;
+    white-space: nowrap;
+    background: rgba(92, 24, 24, 0.5);
+}
+
+.navbar-brand {
+  align-self: flex-start;
+}
+
+.navbar-toggler {
+    position: absolute;
+    left: 75%;
+    color: whitesmoke;
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 24px;
+}
+
 /* Homepage annoucement section */
 .jumbotron {
     background: rgba(200, 54, 54, 0.5);
-    margin-top: 10vh;
+    margin-top: 22vh;
 }
 
 .fa-spotify {
