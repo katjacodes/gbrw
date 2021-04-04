@@ -1,6 +1,8 @@
 #wrapper {
-    background: url("/../assets/images/GBRWedited.jpeg");
+    background: url("/../assets/images/GBRWxs.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .logo {
