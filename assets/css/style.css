@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Philosopher:100,200,300,400,500,600,700|Muli:100,200,300,400,500,600,700');
+
 body,html{
     height:100%;
 }
@@ -35,32 +37,32 @@ header {
 .navbar-toggler {
     position: absolute;
     left: 75%;
-    color: whitesmoke;
+    color: #F5F1E0;
 }
 
 .nav-link {
-    color: whitesmoke;
+    color: #F5F1E0;
     font-size: 20px;
     line-height: 24px;
+    font-family: "Muli", sans-serif;
 }
 
 /* Homepage annoucement section */
 .jumbotron {
-    background: rgba(200, 54, 54, 0.5);
-    margin-top: 22vh;
+    background: rgb(148, 41, 41, 0.5);
+    margin-top: 25vh;
+}
+
+#news {
+    font-family: "Philosopher", serif;
+    color: #F5F1E0;
+}
+
+#lead {
+    font-family: "Muli", sans-serif;
+    color: #F5F1E0, 
 }
 
 .fa-spotify {
     color: rgb(30, 215, 96);
 }
-
-/* credit: code for burger menu taken from https://www.geeksforgeeks.org/how-to-create-hamburger-menu-for-mobile-devices and edited slightly do fit project needs */
-.icon, h5 {
-            color: green;
-        }
-  
-.links a:hover, .icon:hover {
-            background-color: green;
-            color: white;
-            transition: 0.4s all linear;
-        }
