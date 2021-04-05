@@ -37,20 +37,21 @@ header {
 .navbar-toggler {
     position: absolute;
     left: 75%;
-    color: #F5F1E0;
-}
+} 
 
 .nav-link {
     color: #F5F1E0;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 22px;
     font-family: "Muli", sans-serif;
 }
 
 /* Homepage annoucement section */
 .jumbotron {
     background: rgb(148, 41, 41, 0.5);
-    margin-top: 25vh;
+    margin-top: 26vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 #news {
@@ -58,8 +59,9 @@ header {
     color: #F5F1E0;
 }
 
-#lead {
+.container p {
     font-family: "Muli", sans-serif;
+    font-size: 22px;
     color: #F5F1E0, 
 }
 
