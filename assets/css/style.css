@@ -20,14 +20,12 @@ header {
     background-repeat: no-repeat;
 }
 
-
 /* credit: code to align and size logo and navbar taken from https://stackoverflow.com/questions/53171559/navbar-smaller-than-navbar-brand and edited slightly do fit project needs */
 .navbar {
-    height: 50px; 
-    width: 100%;
-    white-space: nowrap;
+    width: 100%; 
+    white-space: nowrap; 
     background: rgba(92, 24, 24, 0.5);
-}
+} 
 
 .navbar-brand {
   align-self: flex-start;
@@ -50,12 +48,19 @@ header {
   padding-right: 20px;
 }
 
+.navbar-nav > .active > a { 
+    color: #66ffff;
+    font-weight: bold;   
+}
+
+.nav-item a:hover {
+  color: #66ffff;
+}
+
 /* Homepage Jumbotron */
 .jumbotron {
     background: rgb(148, 41, 41, 0.5);
     margin-top: 26vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
 }
 
 #news {
@@ -75,10 +80,18 @@ header {
 
 /* Media queries */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
     #wrapper {
         background: url("/../assets/images/GBRWxl2.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
+    }
+}
+
+@media screen and (orientation: portrait) /* and (max-width: 520px) */ {
+    #wrapper {
+    background: url("/../assets/images/GBRWxs.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 }
