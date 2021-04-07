@@ -20,6 +20,13 @@ header {
     background-repeat: no-repeat;
 }
 
+#background {
+    background-image: url("/../assets/images/cover3_XSedited.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+
 /* credit: code to align and size logo and navbar taken from https://stackoverflow.com/questions/53171559/navbar-smaller-than-navbar-brand and edited slightly do fit project needs */
 .navbar {
     width: 100%; 
