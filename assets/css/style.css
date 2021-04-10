@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Philosopher:100,200,300,400,500,600,700|Muli:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:100,200,300,400,500,600,700|Muli:100,200,300,400,500,600,700|Roboto+Slab:100,200,300,400,500,600,700');
 
 body,html{
     height:100%;
@@ -56,12 +56,13 @@ header {
 }
 
 .navbar-nav > .active > a { 
-    color: #66ffff;
-    font-weight: bold;   
+    font-weight: 800;  
+    text-decoration: underline; 
 }
 
-.nav-item a:hover {
-  color: #66ffff;
+.navbar-nav a:hover {
+   font-weight: 800; 
+   color: #F5F1E0;
 }
 
 /* Homepage Jumbotron */
@@ -78,14 +79,48 @@ header {
 .container p {
     font-family: "Muli", sans-serif;
     font-size: 22px;
-    color: #F5F1E0, 
+    color: #F5F1E0; 
 }
 
 .fa-spotify {
     color: rgb(30, 215, 96);
 }
 
+/* About page */
+
+#about {
+    font-family: "Philosopher", serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 21px;
+    color: rgb(207, 28, 86); 
+} 
+
+.description {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    padding: 1vh 4vw 2.5vh 4vw;
+    margin: 0;
+    color: rgb(57, 34, 75);
+}
+
+.textbox {
+   margin: 25px 2vw 10px 2vw;
+   background-color: rgba(245, 241, 224, 0.6);
+   border-radius: 25px;
+}
+
 /* Media queries */
+
+@media only screen and (min-width: 992px) {
+    .textbox {
+        margin: 25px 15vw 10px 15vw;
+        background-color: rgba(245, 241, 224, 0.6);
+        border-radius: 25px;
+   }   
+}
 
 @media only screen and (min-width: 768px) {
     #wrapper {
@@ -93,12 +128,19 @@ header {
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    #background {
+        background: url("/../assets/images/cover3_XLedited.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 }
 
-@media screen and (orientation: portrait) /* and (max-width: 520px) */ {
+@media only screen and (orientation: portrait) {
     #wrapper {
-    background: url("/../assets/images/GBRWxs.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+        background: url("/../assets/images/GBRWxs.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
