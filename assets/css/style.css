@@ -87,7 +87,6 @@ header {
 }
 
 /* About page */
-
 #about {
     font-family: "Philosopher", serif;
     font-weight: 700;
@@ -107,16 +106,21 @@ header {
 }
 
 .textbox {
-   margin: 25px 2vw 10px 2vw;
+   margin: 25px 2vw 25px 2vw;
    background-color: rgba(245, 241, 224, 0.6);
    border-radius: 25px;
 }
 
-/* Media queries */
+/* Cast + Team */
+.profilepic {
+        width: 103px;
+        height: 103px;
+      }
 
+/* Media queries */
 @media only screen and (min-width: 992px) {
     .textbox {
-        margin: 25px 15vw 10px 15vw;
+        margin: 25px 15vw 25px 15vw;
         background-color: rgba(245, 241, 224, 0.6);
         border-radius: 25px;
    }   
