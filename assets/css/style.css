@@ -6,7 +6,6 @@ body,html{
 }
 
 /* General */
-
 h1 {
     font-family: "Philosopher", serif;
     font-weight: 700;
@@ -22,13 +21,13 @@ h2 {
     text-align: center;
     font-size: 30px;
     padding-top: 21px;
-    color: rgb(57, 34, 75); 
+    color: rgb(57, 34, 75);
 }
 
 h3 {
     font-family: "Muli", sans-serif;
     font-size: 21px;
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(57, 34, 75);
     margin-top: 21px;
 }
@@ -48,8 +47,8 @@ header {
     background-repeat: no-repeat;
 }
 
-.background {
-    background-image: url("/../assets/images/cover3_XSedited.jpeg");
+   .background {
+    background-image: url("/../assets/images/cover3_XS.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -146,7 +145,7 @@ header {
 
 .textbox2 {
    margin: 25px 8vw 25px 8vw;
-   background-color: rgba(245, 241, 224, 0.4);
+   background: rgba(245, 241, 224, 0.6);
    border-radius: 25px;
 }
 
@@ -161,6 +160,14 @@ header {
  .person-name {
      text-align: center;
  }
+
+.profile a:hover {
+   text-decoration: none;
+}
+
+.profile a:hover .person-name {
+    font-weight: 800;
+}
 
 /* Media queries */
 @media only screen and (min-width: 992px) {
@@ -177,7 +184,7 @@ header {
 
    .textbox2 {
         margin: 25px 6vw 25px 6vw;
-        background-color: rgba(245, 241, 224, 0.4);
+        background: rgba(245, 241, 224, 0.6);
         border-radius: 25px;
    }  
 
@@ -188,12 +195,12 @@ header {
         background-repeat: no-repeat;
     }
 
-    #background {
-        background: url("/../assets/images/cover3_XLedited.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+    .background {
+    background-image: url("/../assets/images/cover3_XL.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
 
     .profilepic {
         width: 140px;
