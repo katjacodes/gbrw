@@ -5,6 +5,34 @@ body,html{
     height:100%;
 }
 
+/* General */
+
+h1 {
+    font-family: "Philosopher", serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 21px;
+    color: rgb(207, 28, 86); 
+}
+
+h2 {
+    font-family: "Philosopher", serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 21px;
+    color: rgb(57, 34, 75); 
+}
+
+h3 {
+    font-family: "Muli", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    color: rgb(57, 34, 75);
+    margin-top: 21px;
+}
+
 /* Header */
 header {
     display: flex;
@@ -20,7 +48,7 @@ header {
     background-repeat: no-repeat;
 }
 
-#background {
+.background {
     background-image: url("/../assets/images/cover3_XSedited.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,10 +140,27 @@ header {
 }
 
 /* Cast + Team */
+.people-grid {
+    margin: 25px 2vw 25px 2vw;
+}
+
+.textbox2 {
+   margin: 25px 8vw 25px 8vw;
+   background-color: rgba(245, 241, 224, 0.4);
+   border-radius: 25px;
+}
+
 .profilepic {
         width: 103px;
         height: 103px;
+        margin-top: 5vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
+ .person-name {
+     text-align: center;
+ }
 
 /* Media queries */
 @media only screen and (min-width: 992px) {
@@ -123,8 +168,18 @@ header {
         margin: 25px 15vw 25px 15vw;
         background-color: rgba(245, 241, 224, 0.6);
         border-radius: 25px;
-   }   
+   }  
+   
+   .people-grid {
+       margin: 25px 15vw 25px 15vw;
+   }
 }
+
+   .textbox2 {
+        margin: 25px 6vw 25px 6vw;
+        background-color: rgba(245, 241, 224, 0.4);
+        border-radius: 25px;
+   }  
 
 @media only screen and (min-width: 768px) {
     #wrapper {
@@ -138,6 +193,11 @@ header {
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+    }
+
+    .profilepic {
+        width: 140px;
+        height: 140px;
     }
 }
 
