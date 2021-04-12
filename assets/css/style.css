@@ -113,16 +113,7 @@ header {
     color: rgb(30, 215, 96);
 }
 
-/* About page */
-#about {
-    font-family: "Philosopher", serif;
-    font-weight: 700;
-    text-align: center;
-    font-size: 34px;
-    padding-top: 21px;
-    color: rgb(207, 28, 86); 
-} 
-
+/* About page */ 
 .description {
     font-family: "Roboto Slab", sans-serif;
     font-size: 21px;
