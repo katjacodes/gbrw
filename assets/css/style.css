@@ -127,6 +127,7 @@ header {
 }
 
 /* Cast + Team */
+/* credit: design inspired by https://www.vera.org/about/peoplehttps://www.vera.org/about/people */
 .people-grid {
     margin: 25px 2vw 25px 2vw;
 }
@@ -144,7 +145,8 @@ header {
         display: block;
         margin-left: auto;
         margin-right: auto;
-      }
+}
+
  .person-name {
      text-align: center;
  }
@@ -155,6 +157,23 @@ header {
 
 .profile a:hover .person-name {
     font-weight: 800;
+}
+
+/* Profile Pages */
+.largeprofilepic {
+        width: 180px;
+        height: 180px;
+        margin-top: 2vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Media queries */
