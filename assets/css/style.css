@@ -173,7 +173,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 20px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Media queries */
@@ -189,7 +189,7 @@ hr {
    }
 }
 
-   .textbox2 {
+   .backgroundcolor {
         margin: 25px 6vw 25px 6vw;
         background: rgba(245, 241, 224, 0.6);
         border-radius: 25px;
