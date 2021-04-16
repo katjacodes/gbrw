@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Philosopher:100,200,300,400,500,600,700|Muli:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
 
 body,html{
@@ -208,15 +207,11 @@ blockquote{
 blockquote::before{
     font-family: "Philosopher", serif;
     content: "\201C";
-    font-size: $base-font-size;
-    line-height: $base-line-height;
     }
 
 blockquote::after{
     font-family: "Philosopher", serif;
     content: "\201D";
-    font-size: $base-font-size;
-    line-height: $base-line-height;
 }
 
 /* Media queries */
@@ -267,6 +262,7 @@ blockquote::after{
 }
 
 @media only screen and (min-width: 992px) {
+    /* credit: code to style quote taken from https://codepen.io/cliftwalker/pen/XJaEXY and edited slightly do fit project needs */
     blockquote{
         font-size: .8em;
         width: 90%;
