@@ -263,7 +263,7 @@ blockquote::after{
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 576px) {
     /* credit: code to style quote taken from https://codepen.io/cliftwalker/pen/XJaEXY and edited slightly do fit project needs */
     blockquote{
         font-size: .8em;
@@ -279,6 +279,7 @@ blockquote::after{
         line-height: 1.6;
         position: relative;
         background: rgba(245, 241, 224, 0.6);
+        margin-bottom: 1em;
     }
 
     blockquote::before{
