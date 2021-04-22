@@ -216,6 +216,33 @@ blockquote::after{
     content: "\201D";
 }
 
+/* Contact */
+#contact {
+    margin-bottom: 34px;
+}
+
+#socialmedia {
+    text-align: center;
+}
+
+#findus {
+    margin-bottom: 30px;
+}
+
+.sociallinks {
+    display: inline-block;
+    margin-bottom: .75em;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+    margin-right: .4em;
+}
+
+.fa-instagram {
+    color: #F5F1E0;
+}
+
 /* Media queries */
 @media only screen and (min-width: 992px) {
     .textbox {
