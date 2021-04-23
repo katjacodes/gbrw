@@ -121,9 +121,9 @@ header {
 
 /* About page */ 
 .description {
-    font-family: "Lato", sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 21px;
-    font-weight: 300;
+    font-weight: 400;
     padding: 1vh 4vw 2.5vh 4vw;
     margin: 0;
     color: rgb(57, 34, 75);
