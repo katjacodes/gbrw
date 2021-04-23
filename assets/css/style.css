@@ -123,6 +123,9 @@ header {
    margin: 25px 2vw 25px 2vw;
    background-color: rgba(245, 241, 224, 0.6);
    border-radius: 25px;
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   -o-border-radius: 25px;
 }
 
 /* Cast + Team */
@@ -135,6 +138,9 @@ header {
    margin: 25px 8vw 25px 8vw;
    background: rgba(245, 241, 224, 0.6);
    border-radius: 25px;
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   -o-border-radius: 25px;
 }
 
 .profilepic {
@@ -184,7 +190,11 @@ hr {
   font-size: 21px;
   font-weight: 300;
   background: rgba(245, 241, 224, 0.6);
-  border-radius: 25px; margin-left: 1vw; 
+  border-radius: 25px; 
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin-left: 1vw; 
   margin-right: 1vw; 
   padding: 2vh 2vw 2vh 2vw;
 }
@@ -207,16 +217,52 @@ blockquote{
 }
 
 blockquote::before{
-    font-family: "Philosopher", serif;
-    content: "\201C";
-    }
+  font-family: "Philosopher", serif;
+  content: "\201C";
+}
 
 blockquote::after{
-    font-family: "Philosopher", serif;
-    content: "\201D";
+  font-family: "Philosopher", serif;
+  content: "\201D";
 }
 
 /* Contact */
+form{
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 25px 6vw 25px 6vw;
+  background: rgba(245, 241, 224, 0.6);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
+  text-align: left;
+  height: auto;
+  overflow: auto;
+  position: relative;
+}
+
+label {
+    margin-top: 20px;
+}
+
+textarea{
+  box-sizing: border-box;
+  -webkit-resize: vertical;
+  -moz-resize: vertical;
+  -o-resize: vertical;
+  resize: vertical;
+}
+
+#email, #email2, #name, #messageus {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
 #contact {
     margin-bottom: 34px;
 }
@@ -231,7 +277,7 @@ blockquote::after{
 
 .sociallinks {
     display: inline-block;
-    margin-bottom: .75em;
+    margin-bottom: 60px;
 }
 
 .fa-facebook-square {
@@ -240,7 +286,30 @@ blockquote::after{
 }
 
 .fa-instagram {
-    color: #F5F1E0;
+    color: rgb(207, 28, 86);
+}
+
+#message {
+    margin-top: 40px;
+}
+
+.btn-warning {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(57, 34, 75);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.btn-warning:hover{
+  background-color: rgb(245, 241, 224);
+  border-color: rgb(57, 34, 75);
 }
 
 /* Media queries */
