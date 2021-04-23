@@ -333,13 +333,32 @@ textarea{
    .people-grid {
        margin: 25px 15vw 25px 15vw;
    }
-}
 
-   .backgroundcolor {
+
+    .backgroundcolor {
         margin: 25px 6vw 25px 6vw;
         background: rgba(245, 241, 224, 0.6);
         border-radius: 25px;
    }  
+
+    .textbox4 {
+       font-family: "Muli", sans-serif;
+       font-size: 16px;
+       font-weight: 500;
+       margin: 15px 50vw 25px 50vw;
+       background: rgba(245, 241, 224, 0.6);
+       border-radius: 25px;
+       -webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+       -o-border-radius: 25px;
+       text-align: left;
+       height: auto;
+       overflow: auto;
+       position: relative;
+       padding-left: 5vw;
+       padding-right: 5vw;
+    }
+}
 
 @media only screen and (min-width: 768px) {
     #wrapper {
@@ -358,6 +377,24 @@ textarea{
     .profilepic {
         width: 140px;
         height: 140px;
+    }
+
+    .textbox4 {
+       font-family: "Muli", sans-serif;
+       font-size: 16px;
+       font-weight: 500;
+       margin: 15px 30vw 25px 30vw;
+       background: rgba(245, 241, 224, 0.6);
+       border-radius: 25px;
+       -webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+       -o-border-radius: 25px;
+       text-align: left;
+       height: auto;
+       overflow: auto;
+       position: relative;
+       padding-left: 5vw;
+       padding-right: 5vw;
     }
 }
 
