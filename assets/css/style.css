@@ -105,6 +105,16 @@ header {
     color: #F5F1E0; 
 }
 
+#updates {
+    margin-top: 1.5em;
+}
+
+.container a:hover {
+   font-weight: 800; 
+   color: #F5F1E0;
+   text-decoration: none;
+}
+
 .fa-spotify {
     color: rgb(30, 215, 96);
 }
@@ -227,7 +237,7 @@ blockquote::after{
 }
 
 /* Contact */
-form{
+.textbox4{
   font-family: "Muli", sans-serif;
   font-size: 16px;
   font-weight: 500;
