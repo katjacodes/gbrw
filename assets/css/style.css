@@ -2,6 +2,7 @@
 
 body,html{
     height:100%;
+    padding-bottom: 5vh;
 }
 
 /* General */
@@ -140,10 +141,6 @@ header {
 
 /* Cast + Team */
 /* credit: design inspired by https://www.vera.org/about/peoplehttps://www.vera.org/about/people */
-.people-grid {
-    margin: 25px 2vw 25px 2vw;
-}
-
 .textbox2 {
    margin: 25px 8vw 25px 8vw;
    background: rgba(245, 241, 224, 0.6);
