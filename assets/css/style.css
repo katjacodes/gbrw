@@ -323,7 +323,6 @@ textarea{
 }
 
 /*Sponsors*/
-
 .textbox5 {
    display: block;
    margin: 30vh auto;
@@ -347,12 +346,11 @@ textarea{
         margin: 25px 15vw 25px 15vw;
         background-color: rgba(245, 241, 224, 0.6);
         border-radius: 25px;
-   }  
+    }  
    
-   .people-grid {
+    .people-grid {
        margin: 25px 15vw 25px 15vw;
-   }
-
+    }
 
     .backgroundcolor {
         margin: 25px 6vw 25px 6vw;
@@ -377,6 +375,15 @@ textarea{
        padding-left: 5vw;
        padding-right: 5vw;
     }
+
+    .largeprofilepic {
+        width: 300px;
+        height: 300px;
+        margin-top: 2vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
 
     .textbox5 {
        display: block;
