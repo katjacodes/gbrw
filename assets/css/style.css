@@ -2,7 +2,10 @@
 
 body,html{
     height:100%;
-    padding-bottom: 5vh;
+}
+
+.frame {
+    padding-bottom: .2vh;
 }
 
 /* General */
@@ -338,9 +341,6 @@ textarea{
 }
 
 /* Media queries */
-@media only screen and (min-width: 1200px) {
-
-
 @media only screen and (min-width: 992px) {
     .textbox {
         margin: 25px 15vw 25px 15vw;
@@ -481,5 +481,4 @@ textarea{
     blockquote::after{
         content: '';
     }   
-}
 }
