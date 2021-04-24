@@ -5,7 +5,7 @@ body,html{
 }
 
 .frame {
-    padding-bottom: .2vh;
+    padding-bottom: 20px;
 }
 
 /* General */
@@ -88,6 +88,37 @@ header {
 }
 
 .navbar-nav a:hover {
+   font-weight: 800; 
+   color: #F5F1E0;
+}
+
+
+/*Footer*/
+.footer {
+    width: 100%;
+    color: #F5F1E0;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+/* credit: code to center text taken from https://www.w3schools.com/css/css_align.asp */
+.footer p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.designby {
+    text-decoration: underline;
+    color: #F5F1E0;
+}
+
+p a:hover {
    font-weight: 800; 
    color: #F5F1E0;
 }
