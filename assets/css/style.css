@@ -322,6 +322,25 @@ textarea{
   border-color: rgb(57, 34, 75);
 }
 
+/*Sponsors*/
+
+.textbox5 {
+   display: block;
+   margin: 30vh auto;
+   width: 50%;
+   background-color: rgba(245, 241, 224, 0.6);
+   border-radius: 25px;
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   -o-border-radius: 25px;
+}
+
+.soon {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 25px;
+}
+
 /* Media queries */
 @media only screen and (min-width: 992px) {
     .textbox {
@@ -357,6 +376,23 @@ textarea{
        position: relative;
        padding-left: 5vw;
        padding-right: 5vw;
+    }
+
+    .textbox5 {
+       display: block;
+       margin: 30vh auto;
+       width: 30%;
+       background-color: rgba(245, 241, 224, 0.6);
+       border-radius: 25px;
+       -webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+       -o-border-radius: 25px;
+    }
+    
+    .soon {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 34px;
     }
 }
 
