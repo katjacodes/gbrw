@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Philosopher:100,200,300,400,500,600,700|Muli:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:100,200,300,400,500,600,700|Muli:100,200,300,400,500,600,700');
 
 body,html{
     height:100%;
@@ -107,12 +107,12 @@ header {
 
 #updates {
     margin-top: 1.5em;
+    text-decoration: underline;
 }
 
 .container a:hover {
    font-weight: 800; 
    color: #F5F1E0;
-   text-decoration: none;
 }
 
 .fa-spotify {
@@ -196,9 +196,9 @@ hr {
 }
 
 .textbox3 {
-  font-family: "Lato", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 21px;
-  font-weight: 300;
+  font-weight: 400;
   background: rgba(245, 241, 224, 0.6);
   border-radius: 25px; 
   -webkit-border-radius: 25px;
