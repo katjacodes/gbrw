@@ -1,3 +1,4 @@
+/*------------ USED ACROSS THE SITE ------------*/
 @import url('https://fonts.googleapis.com/css?family=Philosopher:100,200,300,400,500,600,700|Muli:100,200,300,400,500,600,700');
 
 body,html{
@@ -8,7 +9,6 @@ body,html{
     padding-bottom: 20px;
 }
 
-/* General */
 h1 {
     font-family: "Philosopher", serif;
     font-weight: 700;
@@ -32,7 +32,7 @@ h3 {
     color: rgb(57, 34, 75);
 }
 
-/* Header */
+/*------------ HEADER ------------*/
 header {
     display: flex;
 }
@@ -93,7 +93,7 @@ header {
 }
 
 
-/*Footer*/
+/*------------ FOOTER ------------*/
 .footer {
     width: 100%;
     color: #F5F1E0;
@@ -123,7 +123,7 @@ p a:hover {
    color: #F5F1E0;
 }
 
-/* Homepage Jumbotron */
+/*------------ HOMEPAGE JUMBOTRON ------------*/
 .jumbotron {
     background: rgb(148, 41, 41, 0.5);
     margin-top: 26vh;
@@ -154,7 +154,7 @@ p a:hover {
     color: rgb(30, 215, 96);
 }
 
-/* About page */ 
+/*------------ ABOUT PAGE ------------*/
 .description {
     font-family: "Muli", sans-serif;
     font-size: 21px;
@@ -173,7 +173,7 @@ p a:hover {
    -o-border-radius: 25px;
 }
 
-/* Cast + Team */
+/*------------ CAST + TEAM PAGE ------------*/
 /* credit: design inspired by https://www.vera.org/about/peoplehttps://www.vera.org/about/people */
 .textbox2 {
    margin: 25px 8vw 25px 8vw;
@@ -207,7 +207,7 @@ p a:hover {
     font-weight: 800;
 }
 
-/* Profile Pages */
+/*------------ INDIVIDUAL PROFILE PAGES ------------*/
 .largeprofilepic {
         width: 180px;
         height: 180px;
@@ -267,12 +267,12 @@ blockquote::after{
   content: "\201D";
 }
 
-/* Contact */
+/*------------ CONTACT PAGE ------------*/
 .textbox4{
   font-family: "Muli", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  margin: 25px 6vw 25px 6vw;
+  margin: 25px 5vw 25px 5vw;
   background: rgba(245, 241, 224, 0.6);
   border-radius: 25px;
   -webkit-border-radius: 25px;
@@ -353,7 +353,7 @@ textarea{
   border-color: rgb(57, 34, 75);
 }
 
-/*Sponsors*/
+/*------------ SPONSORS PAGE ------------*/
 .textbox5 {
    display: block;
    margin: 30vh auto;
@@ -371,7 +371,7 @@ textarea{
     font-size: 25px;
 }
 
-/* Media queries */
+/*------------ MEDIA QUERIES ------------*/
 @media only screen and (min-width: 992px) {
     .textbox {
         margin: 25px 15vw 25px 15vw;
