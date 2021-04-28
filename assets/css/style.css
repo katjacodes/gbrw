@@ -173,6 +173,15 @@ p a:hover {
    -o-border-radius: 25px;
 }
 
+#musiclink {
+    color: rgb(57, 34, 75);
+    text-decoration: underline;
+}
+
+.description a:hover {
+   font-weight: 800; 
+}
+
 /*------------ CAST + TEAM PAGE ------------*/
 /* credit: design inspired by https://www.vera.org/about/peoplehttps://www.vera.org/about/people */
 .textbox2 {
