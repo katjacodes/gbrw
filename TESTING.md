@@ -49,7 +49,7 @@ The path through the website will vary depending on the visitor's interest and e
    2. Using both Firefox Developer Tools and different devices: Look at the homepage on a desktop screen, a tablet screen, and a phone screen (both in portrait and landscape orientation) to verify that
       - The navigation bar turns into a burger menu when navigating to the homepage on a phone screen.
       - The background image gets resized and cropped in a way that its content remains recognizable and aesthetically pleasing.
-   3. Make sure the burger menu pushes down the content when opened. [During testing, the menu would initially overlay the remaining website content. This turned out to be due to a typo in the linked script.]
+   3. Make sure the burger menu pushes down the content when opened. _During testing, the menu would initially overlay the remaining website content. This turned out to be due to a typo in the linked script._
    4. Click on the logo in the navigation bar and verify that it links to the homepage. 
    5. Click on each navigation menu item and verify that it links to the correct page.
    6. Repeat steps 4 and 5 on phone and a tablet.
@@ -75,7 +75,7 @@ The path through the website will vary depending on the visitor's interest and e
 
 2. Page content
    1. Click on each profile image to verify it links to the correct profile.
-   2. Using both Firefox Developer Tools and different devices: Look at the About on a desktop screen, a tablet screen, and a phone screen (both in portrait and landscape orientation) to verify that the images rearrange with increasing/decreasing screen width.
+   2. Using both Firefox Developer Tools and different devices: Look at the About on a desktop screen, a tablet screen, and a phone screen (both in portrait and landscape orientation) to verify that the images rearrange with increasing/decreasing screen width. _During testing, the imgages did not rearrange. Researching the reason for this, I found out that all of them need to be wrapped into on single row to be fully responsive._
 
 3. Individual profile pages
    1. Navigation bar:
@@ -98,7 +98,7 @@ The path through the website will vary depending on the visitor's interest and e
    3. NOTE: The form is not functional while the website it deployed on GitHub. It will be once the client deploys it using Squarespace hosting.
 
 ###  Footer 
-1. Using both Firefox Developer Tools and different devices: Look at the About on a desktop screen, a tablet screen, and a phone screen (both in portrait and landscape orientation) to verify that the footer is sticky on all pages and across devices.
+1. Using both Firefox Developer Tools and different devices: Look at the About on a desktop screen, a tablet screen, and a phone screen (both in portrait and landscape orientation) to verify that the footer is sticky on all pages and across devices. 
 2. Click on the Letters and Bytes link to verify it leads to the developer's website  on all pages.
 
 ## Further testing: 
