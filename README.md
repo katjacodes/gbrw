@@ -40,7 +40,7 @@ Goals toward the end of / after the pandemic:
 #### Client stories
 1. As a new visitor to the website, I want to have easy access to the music, so I can get a taste of the musical.
 2. As a new visitor to the website, I want find reader-friendly, well-organized information about the musical's content, background, and those involved in it.
-3. As a new vistor to the website, I want to find out where I can find more information about the musical, especially on social media platforms I already use.
+3. As a new visitor to the website, I want to find out how I can connect with the musical, especially on social media platforms I already use.
 4. As someone already familiar with the musical, I want to have a way to stay updated about recent developments related to the musical, including its new premier date.
 5. As someone already familiar with the musical, I want to know which businesses in my commmunity financially support artistic production.
 6. As a journalist focusing on local news and/or LGBTQIA issues, I want to be have access to background information about the musical and ways of contacting those involved.
@@ -95,6 +95,7 @@ The contact page consists of three sections. The first section features links to
 - Sponsors page - Features all businesses and organizations currently supporting the musical.
 - Fundraising page - Offers information about how to financially support the musical and about the benefits of sponsorship.     
 - Ticket purchase functionality - Backend skills needed
+- Improve loading speed on mobile devices - Optimizes experience for visitors using their mobile device to access the page. - Further tinkering with image files, sripts, and stylesheents necessary.
 
 
 ## Technologies Used
@@ -109,7 +110,9 @@ The contact page consists of three sections. The first section features links to
 - [jQuery](https://jquery.com/)
     - This project uses **jQuery** to reference Javascript needed for the responsive navbar.
 - [Popper.js](https://popper.js.org/)
-    - This project uses **Popper,js** reference Javascript needed for the responsive navbar.
+    - This project uses **Popper,js** to reference Javascript needed for the responsive navbar.
+- [ColorSpace] (https://mycolor.space)
+    - This project uses **ColorSpace** to determine font colors that go well together.
 - [WAVE] (https://wave.webaim.org)
     - This project uses the Web Accessibilty Evaluation Tool to make sure the website if accessible to visitors of differing abilities. 
 - [WebAIM] (https://webaim.org/resources/contrastchecker/)
