@@ -42,7 +42,7 @@ Goals toward the end of / after the pandemic:
 2. As a new visitor to the website, I want find reader-friendly, well-organized information about the musical's content, background, and those involved in it.
 3. As a new visitor to the website, I want to find out how I can connect with the musical, especially on social media platforms I already use.
 4. As someone already familiar with the musical, I want to have a way to stay updated about recent developments related to the musical, including its new premier date.
-5. As someone already familiar with the musical, I want to know which businesses in my commmunity financially support artistic production.
+5. As someone already familiar with the musical, I want to know which businesses in my community financially support artistic production. (In progress)
 6. As a journalist focusing on local news and/or LGBTQIA issues, I want to be have access to background information about the musical and ways of contacting those involved.
 
 ### Wireframe mockups: 
@@ -97,7 +97,6 @@ The contact page consists of three sections. The first section features links to
 - Ticket purchase functionality - Backend skills needed
 - Improve loading speed on mobile devices - Optimizes experience for visitors using their mobile device to access the page. - Further tinkering with image files, sripts, and stylesheents necessary.
 
-
 ## Technologies Used
 - This project uses HTML and CSS programming languages.
 - [Gitpod](https://gitpod.io) 
@@ -119,3 +118,6 @@ The contact page consists of three sections. The first section features links to
     - This project uses the WebAIM contrast checker to make sure the website is accessible to readers with impaired vision.
 - [PageSpeed] (https://developers.google.com/speed/pagespeed/insights/)
     - This project uses Google PageSpeed Insights to optimize loading time.
+
+## Testing 
+Testing information can be found in separate [TESTING.md file](TESTING.md)
