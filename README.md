@@ -100,7 +100,7 @@ The contact page consists of three sections. The first section features links to
 ## Technologies Used
 - This project uses HTML and CSS programming languages.
 - [Gitpod](https://gitpod.io) 
-    - This project uses **Gitpdo** for their IDE.
+    - This project uses **Gitpod** for their IDE.
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
     - This project uses **Bootstrap4** to simplify the structure of the website and make the website responsive
     - This project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
@@ -110,14 +110,29 @@ The contact page consists of three sections. The first section features links to
     - This project uses **jQuery** to reference Javascript needed for the responsive navbar.
 - [Popper.js](https://popper.js.org/)
     - This project uses **Popper,js** to reference Javascript needed for the responsive navbar.
-- [ColorSpace] (https://mycolor.space)
+- [ColorSpace](https://mycolor.space)
     - This project uses **ColorSpace** to determine font colors that go well together.
-- [WAVE] (https://wave.webaim.org)
+- [WAVE](https://wave.webaim.org)
     - This project uses the Web Accessibilty Evaluation Tool to make sure the website if accessible to visitors of differing abilities. 
-- [WebAIM] (https://webaim.org/resources/contrastchecker/)
+- [WebAIM](https://webaim.org/resources/contrastchecker/)
     - This project uses the WebAIM contrast checker to make sure the website is accessible to readers with impaired vision.
-- [PageSpeed] (https://developers.google.com/speed/pagespeed/insights/)
+- [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
     - This project uses Google PageSpeed Insights to optimize loading time.
 
 ## Testing 
 Testing information can be found in separate [TESTING.md file](TESTING.md)
+
+## Deployment
+
+This project was developed using the [Gitpod](https://gitpod.io), committed to git, and pushed to GitHub using the Gitpod terminal. 
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/katjacodes/gbrw), the following process was completed: 
+1. Log into GitHub. 
+2. Klick on the account avatar in the top right corner and select "Your repositories" from the dropdown menu.
+3. From the list of repositories, select **gbrw**.
+4. From the menu bar at the top of the page, select **Settings**.
+5. In the menu bar on the left side of the screen, select the second menu item from the bottom, "Pages."
+6. In the **Source** section, select **Master Branch** from the dropdown menu, then click on **Save**.
+7. As a result, the page is refreshed and the website deployed. 
+
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
