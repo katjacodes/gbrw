@@ -133,6 +133,6 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 4. From the menu bar at the top of the page, select **Settings**.
 5. In the menu bar on the left side of the screen, select the second menu item from the bottom, "Pages."
 6. In the **Source** section, select **Master Branch** from the dropdown menu, then click on **Save**.
-7. As a result, the page is refreshed and the website deployed. 
+7. As a result, the page is refreshed and the website deployed. The **website URL** appears in a blue box above the **Source Section**.
 
 At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
