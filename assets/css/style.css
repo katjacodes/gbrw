@@ -445,13 +445,13 @@ textarea{
 
 @media only screen and (min-width: 768px) {
     #wrapper {
-        background: url("/../assets/images/GBRWxl2.jpeg");
+        background: url("../assets/images/GBRWxl2.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
     }
 
     .background {
-    background-image: url("/../assets/images/cover3_XL.jpg");
+    background-image: url("../assets/images/cover3_XL.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -483,7 +483,7 @@ textarea{
 
 @media only screen and (orientation: portrait) {
     #wrapper {
-        background: url("/../assets/images/GBRWxs.jpeg");
+        background: url("../assets/images/GBRWxs.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
     }
