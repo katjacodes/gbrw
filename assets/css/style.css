@@ -281,7 +281,7 @@ blockquote::after{
   font-family: "Muli", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  margin: 25px 5vw 25px 5vw;
+  margin: 25px 2vw 25px 2vw;
   background: rgba(245, 241, 224, 0.6);
   border-radius: 25px;
   -webkit-border-radius: 25px;
