@@ -377,7 +377,7 @@ textarea{
 .textbox5 {
    display: block;
    margin: 30vh auto;
-   width: 50%;
+   width: 80%;
    background-color: rgba(245, 241, 224, 0.6);
    border-radius: 25px;
    -webkit-border-radius: 25px;
@@ -386,8 +386,7 @@ textarea{
 }
 
 .soon {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding: 8vh 5vw;
     font-size: 25px;
 }
 
