@@ -45,6 +45,7 @@ header {
     background: url("/gbrw/assets/images/GBRWxs.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .background {
