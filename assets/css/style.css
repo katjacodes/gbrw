@@ -287,6 +287,22 @@ blockquote::after{
         margin-right: auto;
 }
 
+/*------------ SPONSORS PAGE ------------*/
+.textbox5 {
+   display: block;
+   margin: 30vh auto;
+   width: 80%;
+   background-color: rgba(245, 241, 224, 0.6);
+   border-radius: 25px;
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   -o-border-radius: 25px;
+}
+
+.soon {
+    padding: 8vh 5vw;
+    font-size: 25px;
+}
 
 /*------------ CONTACT PAGE ------------*/
 .textbox4{
@@ -374,23 +390,6 @@ textarea{
   border-color: rgb(57, 34, 75);
 }
 
-/*------------ SPONSORS PAGE ------------*/
-.textbox5 {
-   display: block;
-   margin: 30vh auto;
-   width: 80%;
-   background-color: rgba(245, 241, 224, 0.6);
-   border-radius: 25px;
-   -webkit-border-radius: 25px;
-   -moz-border-radius: 25px;
-   -o-border-radius: 25px;
-}
-
-.soon {
-    padding: 8vh 5vw;
-    font-size: 25px;
-}
-
 /*------------ MEDIA QUERIES ------------*/
 @media only screen and (min-width: 992px) {
     .textbox {
@@ -462,10 +461,10 @@ textarea{
     }
 
     .background {
-    background-image: url("/gbrw/assets/images/cover3_XL.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+        background-image: url("/gbrw/assets/images/cover3_XL.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
    }
 
     .profilepic {
@@ -517,6 +516,7 @@ textarea{
         background: url("/gbrw/assets/images/GBRWxs.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }
 
