@@ -1,12 +1,11 @@
 # Great Big Rainbow World
 
-[View deployed site here](#)
+[View deployed site here](https://katjacodes.github.io/gbrw/)
 
 ## Project Description
-
 The online presence for Great Big Rainbow World was created by Katja Schatte as a digital home for the musical, which is set to premiere in Minneapolis, MN in June 2022.
 
-Great Big Rainbow World was written and produced by Sarah Julius and features a majority LGBTQ+ cast. The musical was originally scheduled to premiere in June 2020. However, due to the COVID19 pandemic, the stage premiere had to be rescheduled several times. This gave Sarah Julius the opportunity to replace the template-based original website with a custom online presence. The goal of the initial version of the new website is to share information about the musical ahead of its premiere and give the public a taste of the musical's original score. Subsequent version of the website will include a contact form, a link to the musical soundtrack on Spotify, and ticket purchase functionality.
+Great Big Rainbow World was written and produced by Sarah Julius and features a majority LGBTQ+ cast. The musical was originally scheduled to premiere in June 2020. However, due to the COVID19 pandemic, the stage premiere had to be rescheduled several times. This gave Sarah Julius the opportunity to replace the template-based original website with a custom online presence. The goal of the initial version of the new website is to share information about the musical ahead of its premiere and give the public a taste of the musical's original score. Subsequent versions of the website will include a contact form, a link to the musical soundtrack on Spotify, and ticket purchase functionality.
 
 Due to the COVID19 pandemic, the business goals of this website are in flux and can be divided into two categories: goals that are relevant at all times and goals that will become relevant only after the pandemic.
 
@@ -25,7 +24,6 @@ Goals toward the end of / after the pandemic:
 ## UX
 
 ### Core target audience
-
 #### The core target audience of this musical is:
 * Gen Z, Millennials, Gen X (i.e., teenagers through early forties)
 * Individuals across the spctrum of gender identity and sexual orientation
@@ -48,7 +46,8 @@ Goals toward the end of / after the pandemic:
 ### Wireframe mockups: 
 - [Home](#)
 - [About](#) 
-- [Cat + Team and individual profile pages](#) 
+- [Cast + Team and individual profile pages](#) 
+- [Sponsors](#)
 - [Contact](#) 
 
 ## Features
@@ -67,7 +66,7 @@ The **Jumbotron** on the homepage features the two major ways visitors can inter
 #### About
 The About page features a brief synopsis and background information about the musical. The copy was provided by Sarah Julius, writer, composer and producer of _Great Big Rainbow World_. Visitors who prefer traditional writing to social media content or who are looking for a quick way to get an overview of the musical (e.g., for potential media requests), this page provides all the necessary information.
 
-##### Cast + Team and Individual Profile Pages
+#### Cast + Team and Individual Profile Pages
 The cast and teams page consists of **two responsive grids**: one featuring the **pictures and names** of the cast and one featuring the pictures and names of the creative team. The standard setting of the grid is two images per row. Above that, the grid features three images per row on screens 768px and above, four images per row on screens 992px and above, and six images per row on screens 1400px and above. In addition, the image size increases for screens 768px and above. The purpose of this structure is to provide a clean and organized overview of everyone involved, despite the relatively large number or cast and team members. 
 
 In addition, each image and name is clickable and **links** an **individual profile** featuring a profile image (larger for screens 992px and above, the cast or team member's name, pronouns, and role and a brief quote and personal information. The breakpoint for the styling of the quotes is 576px to strike a balance between readability and aesthetics. 
@@ -82,18 +81,17 @@ The contact page consists of three sections. The first section features links to
 
  
 ### Existing Features
-- Header Logo - Exists on [every page](../index.html) and allows all users to easily recognise the business brand. Clicking the logo returns users to the home page as they would expect.
-- Header Navigation Bar - Exists on [every page](../index.html) and allows all users to easily navigate all the website's pages and find what they are looking for quickly.
-- Footer Copyright Info - Exists on [every page](../index.html) and protects business copyright.
+- Header Logo - Exists on [every page](index.html) and allows all users to easily recognise the business brand. Clicking the logo returns users to the home page as they would expect.
+- Header Navigation Bar - Exists on [every page](index.html) and allows all users to easily navigate all the website's pages and find what they are looking for quickly.
+- Footer Copyright Info - Exists on [every page](index.html) and protects business copyright.
 - [About Page](about.html) - Allows potential clients to connect with the artist without overloading them with information.
-- [Cast + Teams Page]
-- [Contact Form](contact.html) - Allows potential clients to ask questions, and/or make the first step in their ordering process. 
+- [Cast + Team Page](castandteam.html)
 - Social Media links - Linking to the musical's presence on Spotify, Facebook, and Instagram
 
 ### Features to Implement in future
+- _Functioning_ [Contact Form](contact.html) - Allows potential clients to ask questions, and/or make the first step in their ordering process. - Backend functionality needed. Will be provided by the client's web host once the page is deployed there.
 - Add CAPTCHA to contact form - Helps protect the contact form from malicious use, i.e., spam - JavaScript needed
-- Sponsors page - Features all businesses and organizations currently supporting the musical.
-- Fundraising page - Offers information about how to financially support the musical and about the benefits of sponsorship.     
+- [Sponsors page](sponsors.html) - Features all businesses and organizations currently supporting the musical.
 - Ticket purchase functionality - Backend skills needed
 - Improve loading speed on mobile devices - Optimizes experience for visitors using their mobile device to access the page. - Further tinkering with image files, sripts, and stylesheents necessary.
 
@@ -123,7 +121,6 @@ The contact page consists of three sections. The first section features links to
 Testing information can be found in separate [TESTING.md file](TESTING.md)
 
 ## Deployment
-
 This project was developed using the [Gitpod](https://gitpod.io), committed to git, and pushed to GitHub using the Gitpod terminal. 
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/katjacodes/gbrw), the following process was completed: 
@@ -136,3 +133,40 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 7. As a result, the page is refreshed and the website deployed. The **website URL** appears in a blue box above the **Source Section**.
 
 At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
+
+### How to run this project locally
+To clone this project into Gitpod you will need a Github account. [Create a Github account here](https://github.com/)
+
+Then follow these steps:
+1. Log into [Gitpod](https://gitpod.com) with your gitpod account.
+2. Navigate to the [Project GitHub repository](https://github.com/katjacodes/gbrw)
+3. Click the green "Gitpod" button in the top right corner of the respository
+4. This will trigger a new gitpod workspace to be created based on the code in GitHub. There, you will be able to work locally.
+
+To work on the project code within a local IDE such as VSCode, Sublime Text, etc.:
+1. Navigate to the [Project GitHub repository](https://github.com/katjacodes/gbrw)
+2. Click the "Code" download button next to the green "Gitpod" button.
+3. In the Clone section, select HTTPs and copy the clone URL for the repository. 
+4. Open your local terminal.
+5. Change the current working directory to the location where you want the cloned directory to be located.
+6. Type ```git clone```, and then paste the URL you copied in Step 4.
+7. Press Enter for your local clon to be created.
+
+## Credits
+
+### Content
+- The text for the About page was written by Sarah Julius. Each artist and member of the creative time provided their own bio and headshot.
+
+### Media
+- The background images and logo were created by [#].
+
+### Code
+- HTML code for burger menu was original taken from [W3 Schools](https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse) and then edited.
+- CSS code to align and size logo and navbar was originally taken from a post on [Stackoverflow](https://stackoverflow.com/questions/53171559/navbar-smaller-than-navbar-brand) and then edited.
+- CSS  code to center text in the footer was taken from [W3 Schools](https://www.w3schools.com/css/css_align.asp).
+- CSS code to style quotes on the individual profile pages was original taken from Jonathan Clift's profile on [Codepen](https://codepen.io/cliftwalker/pen/XJaEXY) and then edited.
+- The design of the Cast + Team page was inspired by the [Vera Institute](https://www.vera.org/about/peoplehttps://www.vera.org/about/people). However, no code was taken from the site.
+
+### Acknowledgements
+- I got the opportunity to build a website for a real-world project from Sarah Julius.
+- Code Institute tutors were helpful and guided me in the right direction on two separate occasions when I got stuck did not know how to fix my CSS>
