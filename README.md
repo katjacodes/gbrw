@@ -44,7 +44,7 @@ Goals toward the end of / after the pandemic:
 6. As a journalist focusing on local news and/or LGBTQIA issues, I want to be have access to background information about the musical and ways of contacting those involved.
 
 ### Wireframe mockups: 
-- [Home](#)
+- [Home](assets/images/wireframes/gbrwHOME.png)
 - [About](#) 
 - [Cast + Team and individual profile pages](#) 
 - [Sponsors](#)
