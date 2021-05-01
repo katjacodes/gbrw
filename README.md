@@ -1,5 +1,10 @@
 # Great Big Rainbow World
 
+<div align="center">
+    <img src="assets/images/mockup.png" alt="Mockup of how home page looks on diffferent screen sizes"/>
+</div>
+<br>
+
 [View deployed site here](https://katjacodes.github.io/gbrw/)
 
 ## Project Description
