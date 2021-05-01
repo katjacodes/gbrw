@@ -493,7 +493,7 @@ textarea{
 
 @media only screen and (orientation: portrait) {
     #wrapper {
-        background: url("../assets/images/GBRWxs.jpeg");
+        background: url("/gbrw/assets/images/GBRWxs.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
     }
