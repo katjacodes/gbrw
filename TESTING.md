@@ -1,12 +1,12 @@
 # Great Big Rainbow World – Testing details
 
-[Main README.md file](/README.md)
+[Main README.md file](README.md)
 
-[View website on GitHub Pages](#)
+[View website on GitHub Pages](https://katjacodes.github.io/gbrw/)
 
 ## Testing
-- [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
-- [W3C Markup Validation]( https://validator.w3.org/)
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validation](https://validator.w3.org/)
     - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of HTML and CSS code.
 
 ### Client stories testing:

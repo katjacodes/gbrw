@@ -45,10 +45,10 @@ Goals toward the end of / after the pandemic:
 
 ### Wireframe mockups: 
 - [Home](assets/images/wireframes/gbrwHOME.png)
-- [About](#) 
-- [Cast + Team and individual profile pages](#) 
-- [Sponsors](#)
-- [Contact](#) 
+- [About](assets/images/wireframes/gbrwABOUT.png)
+- [Cast + Team and individual profile pages](assets/images/wireframes/gbrwCASTANDTEAM.png)
+- [Sponsors](assets/images/wireframes/gbrwSPONSORS.png)
+- [Contact](assets/images/wireframes/gbrwCONTACT.png)
 
 ## Features
 
