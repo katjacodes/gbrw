@@ -42,13 +42,13 @@ header {
 }
 
 #wrapper {
-    background: url("/../assets/images/GBRWxs.jpeg");
+    background: url("../assets/images/GBRWxs.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .background {
- background-image: url("/../assets/images/cover3_XS.jpeg");
+ background-image: url("../assets/images/cover3_XS.jpeg");
  background-size: cover;
  background-repeat: no-repeat;
  background-attachment: fixed;
