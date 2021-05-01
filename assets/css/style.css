@@ -276,7 +276,15 @@ blockquote::after{
   content: "\201D";
 }
 
-/*------------ SPONSORS ------------*/
+/*------------ SPONSORS PAGE ------------*/
+.sponsorpic {
+        width: 103px;
+        height: auto;
+        margin-top: 2vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
 
 
 /*------------ CONTACT PAGE ------------*/
