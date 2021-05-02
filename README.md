@@ -174,4 +174,4 @@ To work on the project code within a local IDE such as VSCode, Sublime Text, etc
 
 ### Acknowledgements
 - I got the opportunity to build a website for a real-world project from Sarah Julius.
-- Code Institute tutors were helpful and guided me in the right direction on two separate occasions when I got stuck did not know how to fix my CSS>
+- Code Institute tutors were helpful and guided me in the right direction on two separate occasions when I got stuck did not know how to fix my CSS.
