@@ -112,15 +112,15 @@ The contact page consists of three sections. The first section features links to
 - [jQuery](https://jquery.com/)
     - This project uses **jQuery** to reference Javascript needed for the responsive navbar.
 - [Popper.js](https://popper.js.org/)
-    - This project uses **Popper,js** to reference Javascript needed for the responsive navbar.
+    - This project uses **Popper.js** to reference Javascript needed for the responsive navbar.
 - [ColorSpace](https://mycolor.space)
     - This project uses **ColorSpace** to determine font colors that go well together.
 - [WAVE](https://wave.webaim.org)
-    - This project uses the Web Accessibilty Evaluation Tool to make sure the website if accessible to visitors of differing abilities. 
+    - This project uses the **Web Accessibilty Evaluation Tool** to make sure the website if accessible to visitors of differing abilities. 
 - [WebAIM](https://webaim.org/resources/contrastchecker/)
-    - This project uses the WebAIM contrast checker to make sure the website is accessible to readers with impaired vision.
+    - This project uses the **WebAIM contrast checker** to make sure the website is accessible to readers with impaired vision.
 - [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
-    - This project uses Google PageSpeed Insights to optimize loading time.
+    - This project uses **Google PageSpeed Insights** to optimize loading time.
 
 ## Testing 
 Testing information can be found in separate [TESTING.md file](TESTING.md)
@@ -163,7 +163,7 @@ To work on the project code within a local IDE such as VSCode, Sublime Text, etc
 - The text for the About page was written by Sarah Julius. Each artist and member of the creative time provided their own bio and headshot.
 
 ### Media
-- The background images and logo were created by [#].
+- The background images and logo were created by Alexis Politz.
 
 ### Code
 - HTML code for burger menu was original taken from [W3 Schools](https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse) and then edited.
