@@ -28,19 +28,19 @@ Goals toward the end of / after the pandemic:
 
 ## UX
 
-### Core target audience
+### Core Target Audience
 #### The core target audience of this musical is:
 * Gen Z, Millennials, Gen X (i.e., teenagers through early forties)
 * Individuals across the spctrum of gender identity and sexual orientation
 * Both people who generally like musicals and people who normally avoid the genre
 * Located in the Minneapolis/St. Paul (Minnesota, USA) area
 
-#### Visitors to this website are searching for:
+#### Visitors to This Website Are Searching for:
 * More information about the musical
 * A way to stay updated about the new premiere dates
 * Post-pandemic: tickets
 
-#### Client stories
+#### Client Stories
 1. As a new visitor to the website, I want to have easy access to the music, so I can get a taste of the musical.
 2. As a new visitor to the website, I want find reader-friendly, well-organized information about the musical's content, background, and those involved in it.
 3. As a new visitor to the website, I want to find out how I can connect with the musical, especially on social media platforms I already use.
@@ -48,7 +48,7 @@ Goals toward the end of / after the pandemic:
 5. As someone already familiar with the musical, I want to know which businesses in my community financially support artistic production. (In progress)
 6. As a journalist focusing on local news and/or LGBTQIA issues, I want to be have access to background information about the musical and ways of contacting those involved.
 
-### Wireframe mockups: 
+### Wireframe Mockups: 
 - [Home](assets/images/wireframes/gbrwHOME.png)
 - [About](assets/images/wireframes/gbrwABOUT.png)
 - [Cast + Team and individual profile pages](assets/images/wireframes/gbrwCASTANDTEAM.png)
@@ -93,7 +93,8 @@ The contact page consists of three sections. The first section features links to
 - [Cast + Team Page](castandteam.html)
 - Social Media links - Linking to the musical's presence on Spotify, Facebook, and Instagram
 
-### Features to Implement in future
+### Features to Implement in Future
+- Restyling of navbar. To keep menu items from moving to the left when one item is clicked. - More research needed.
 - _Functioning_ [Contact Form](contact.html) - Allows potential clients to ask questions, and/or make the first step in their ordering process. - Backend functionality needed. Will be provided by the client's web host once the page is deployed there.
 - Add CAPTCHA to contact form - Helps protect the contact form from malicious use, i.e., spam - JavaScript needed
 - [Sponsors page](sponsors.html) - Features all businesses and organizations currently supporting the musical.
@@ -141,7 +142,7 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 
 At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
 
-### How to run this project locally
+### How to Run This Project Locally
 To clone this project into Gitpod you will need a Github account. [Create a Github account here](https://github.com/)
 
 Then follow these steps:
@@ -177,3 +178,4 @@ To work on the project code within a local IDE such as VSCode, Sublime Text, etc
 ### Acknowledgements
 - I got the opportunity to build a website for a real-world project from Sarah Julius.
 - Code Institute tutors were helpful and guided me in the right direction on two separate occasions when I got stuck did not know how to fix my CSS.
+- My Code Institute mentor, Sebastian Immel provided helpful feedback regarding the behavior of my navar, which I will implment as part of the next version of the site. (See **Features to Implement in the Future** section for details.)
