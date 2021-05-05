@@ -97,8 +97,10 @@ The contact page consists of three sections. The first section features links to
 - _Functioning_ [Contact Form](contact.html) - Allows potential clients to ask questions, and/or make the first step in their ordering process. - Backend functionality needed. Will be provided by the client's web host once the page is deployed there.
 - Add CAPTCHA to contact form - Helps protect the contact form from malicious use, i.e., spam - JavaScript needed
 - [Sponsors page](sponsors.html) - Features all businesses and organizations currently supporting the musical.
-- Ticket purchase functionality - Backend skills needed
 - Improve loading speed on mobile devices - Optimizes experience for visitors using their mobile device to access the page. - Further tinkering with image files, sripts, and stylesheents necessary.
+- Improve SEO optimization - Increases visitor stream to the page. - Additional meta tags and editing the copy provided by the client.
+- Ticket purchase functionality - Backend skills needed
+
 
 ## Technologies Used
 - This project uses HTML and CSS programming languages.
